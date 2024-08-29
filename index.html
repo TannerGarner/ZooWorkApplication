@@ -7,20 +7,22 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <form>
-            <label for="name">Name:</label>
-            <input id="name" type="text" required>
+        <div class="formContainer">
+            <form>
+                <label for="name">Name:</label>
+                <input id="name" type="text" required>
 
-            <label for="email">Work Email:</label>
-            <input id="email" type="email" required>
+                <label for="email">Work Email:</label>
+                <input id="email" type="email" required>
 
-            <label for="phoneNumber">Phone Number:</label>
-            <input id="phoneNumber" type="text" required>
+                <label for="phoneNumber">Phone Number:</label>
+                <input id="phoneNumber" type="text" required>
 
-            <label for="experience">Years of Experience:</label>
-            <input id="experience" type="number" required>
+                <label for="experience">Years of Experience:</label>
+                <input id="experience" type="number" min="0" required>
 
-            <input type="submit">
-        </form>
+                <input type="submit">
+            </form>
+        </div>
     </body>
 </html>
