@@ -12,4 +12,31 @@ input {
 div.formContainer {
     display: flex;
     justify-content: center;
+    
+
+    background-image: url(./Images/jungle-background.jpg);
+    background-size: cover;
+}
+
+/* div.formContainer::after{
+    filter: blur(100px);
+} */
+
+.image{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+.turtle{
+    background-image: url(./Images/turtle.jpg);
+}
+
+.monkey{
+    background-image: url(./Images/monkey.jpg);
+
+}
+
+.tucan{
+    background-image: url(./Images/tucan.jpg);
 }
