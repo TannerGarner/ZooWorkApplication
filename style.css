@@ -4,12 +4,26 @@
 }
 input, label {
     display: block;
+    font-size: 30px;
 }
 input {
     margin: 0 0 15px 0;
+}
+input[type=submit] {
+    margin: 50px 0 0 0;
+    padding: 3px 10px;
+}
+
+form {
+    background: #c1ffa6;
+    padding: 50px;
+    border-radius: 20px;
 }
 
 div.formContainer {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: red;
 }
