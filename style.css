@@ -8,6 +8,7 @@ input, label {
 }
 input {
     margin: 0 0 15px 0;
+    padding: 10px;
     border: 2px solid rgb(0, 105, 0);
 }
 input[type=submit] {
@@ -44,11 +45,42 @@ div.formContainer {
 
 .turtle{
     background-image: url(./Images/turtle.jpg);
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    animation: rock 3s infinite;
+}
+
+@keyframes rock {
+    0%,
+    50%,
+    100%{
+        transform: rotateY(0)
+    }
+    25%{
+        transform: rotateY(50deg)
+    }
+    75%{
+        transform: rotateY(-50deg);
+    }
 }
 
 .monkey{
     background-image: url(./Images/monkey.jpg);
+    position: absolute;
+    top: 20px;
+    right: 300px;
+    animation: swing 6s ease-in-out infinite;
+}
 
+@keyframes swing {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    
+    50%{
+        transform: translateX(-1200px)
+    }
 }
 
 .tucan{
