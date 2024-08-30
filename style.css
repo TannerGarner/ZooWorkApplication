@@ -53,4 +53,23 @@ div.formContainer {
 
 .tucan{
     background-image: url(./Images/tucan.jpg);
+    animation: bounce 1s infinite;
+    position: absolute;
+    bottom: 10%;
+    right: 15%;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translate(0, 0);
+        filter: hue-rotate(0deg);
+    }
+    25%, 75% {
+        transform: translate(45px, -200px);
+        filter: hue-rotate(20deg);
+    }
+    50% {
+        transform: translate(90px, 0);
+        filter: hue-rotate(0deg);
+    }
 }
